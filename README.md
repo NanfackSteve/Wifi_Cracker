@@ -1,4 +1,4 @@
-# Wifi Cracker 📡📶🔓
+# Wifi Cracker📡📶🔓
 
 Crack a wifi by <b>Brut-force</b> method.
 <img src="result.png" alt="output">
