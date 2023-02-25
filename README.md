@@ -4,8 +4,8 @@ Crack a wifi by <b>Brut-force</b> method.
 
 ## Description
 <ul>
-    <li> <em>charset.lst</em> file contains list of caracters in present in wifi password
-    <li> <em>crack_wifi</em> is the main file to be execute
+    <li> <em><b>charset.lst</b></em> file contains list of caracters in present in wifi password
+    <li> <em><b>crack_wifi.sh</b></em> is the main file to be execute
 </ul>
 
 ## Pre-requise
