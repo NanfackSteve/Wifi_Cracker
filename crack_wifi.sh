@@ -28,7 +28,7 @@ if [ -p /dev/stdin ]; then
   while read -r passwrd; do
 
     echo -e "$wht\nCheck this password : [$ylw $passwrd $nc]"
-    nmcli -w $wait_Time device wifi connect $SSID password $passwrd /dev/null 1>&2
+    nmcli -w $wait_Time device wifi connect $SSID password $passwrd >/dev/null 2>&1
 
     if [[ $? -ne 0 ]]; then
       echo -e "$red[ Error ]$nc : Incorrect password 😡, trying next one ...🤔"
